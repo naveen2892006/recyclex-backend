@@ -64,7 +64,7 @@ public class SecurityConfig {
 
         CorsConfiguration configuration = new CorsConfiguration();
 
-        configuration.setAllowedOrigins(List.of("https://naveen2892006.github.io/"));
+        configuration.setAllowedOrigins(List.of("*"));
 
         configuration.setAllowedMethods(List.of(
                 "GET",
